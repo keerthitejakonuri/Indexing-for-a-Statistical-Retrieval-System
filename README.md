@@ -1,6 +1,9 @@
 # Indexing-for-a-Statistical-Retrieval-System
 Created two versions of Index for a statistical retrieval system, one is in uncompressed form and other is in compressed form
 
+
+This is a programming Assignment and below is the question
+
 In this assignment you build two versions of the index for a simple statistical retrieval system and also each version of the index shall be in uncompressed form and compressed form. In the next assignment, you will build the retrieval system itself. For this assignment, index the Cranfield documents used in the last assignment:
 A copy of the publicly available Cranfield collection is located on the UTD cs1, cs2, and csgrads1 machines at:
 /people/cs/s/sanda/cs6322/Cranfield
