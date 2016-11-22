@@ -1,0 +1,1530 @@
+It is for calculating the weights for documents as well as queries. It is also for calculating the cosine similarities.
+
+output:
+
+1. vector representation for queries by weight scheme w1
+
+-----------------------------------------------------------------
+-----------------Vector representation of queries By Weighing scheme W1---------------------------
+-----------------------------------------------------------------
+For Query 1 [similarity, law, must, obey, construct, aeroelastic, model, heated, high, speed, aircraft]
+Term             Weight
+aeroelastic            0.7509775004326937
+aircraft            0.7509775004326937
+construct            0.7509775004326937
+heated            0.7509775004326937
+high            0.7509775004326937
+law            0.7509775004326937
+model            0.7509775004326937
+must            0.7509775004326937
+obey            0.7509775004326937
+similarity            0.7509775004326937
+speed            0.7509775004326937
+For Query 2 [structural, aeroelastic, problem, associate, flight, high, speed, aircraft]
+Term             Weight
+aeroelastic            0.6791219525543741
+aircraft            0.6791219525543741
+associate            0.7509775004326937
+flight            0.7509775004326937
+high            0.6791219525543741
+problem            0.7509775004326937
+speed            0.6791219525543741
+structural            0.7509775004326937
+For Query 3 [problem, heat, conduction, composite, slab, solve, so, far]
+Term             Weight
+composite            0.7509775004326937
+conduction            0.7509775004326937
+far            0.7509775004326937
+heat            0.7509775004326937
+problem            0.6791219525543741
+slab            0.7509775004326937
+so            0.7509775004326937
+solve            0.7509775004326937
+For Query 4 [can, criterion, develop, to, show, empirically, validity, flow, solution, chemically, react, gas, mixture, base, on, simplify, assumption, instantaneous, local, chemical, equilibrium]
+Term             Weight
+assumption            0.7509775004326937
+base            0.7509775004326937
+can            0.7509775004326937
+chemical            0.7509775004326937
+chemically            0.7509775004326937
+criterion            0.7509775004326937
+develop            0.7509775004326937
+empirically            0.7509775004326937
+equilibrium            0.7509775004326937
+flow            0.7509775004326937
+gas            0.7509775004326937
+instantaneous            0.7509775004326937
+local            0.7509775004326937
+mixture            0.7509775004326937
+on            0.7509775004326937
+react            0.7509775004326937
+show            0.7509775004326937
+simplify            0.7509775004326937
+solution            0.7509775004326937
+to            0.7509775004326937
+validity            0.7509775004326937
+For Query 5 [chemical, kinetic, system, applicable, to, hypersonic, aerodynamic, problem]
+Term             Weight
+aerodynamic            0.7509775004326937
+applicable            0.7509775004326937
+chemical            0.6791219525543741
+hypersonic            0.7509775004326937
+kinetic            0.7509775004326937
+problem            0.6370891515767836
+system            0.7509775004326937
+to            0.6791219525543741
+For Query 6 [theoretical, experimental, guide, do, we, to, turbulent, couette, flow, behaviour]
+Term             Weight
+behaviour            0.7509775004326937
+couette            0.7509775004326937
+do            0.7509775004326937
+experimental            0.7509775004326937
+flow            0.6791219525543741
+guide            0.7509775004326937
+theoretical            0.7509775004326937
+to            0.6370891515767836
+turbulent            0.7509775004326937
+we            0.7509775004326937
+For Query 7 [possible, to, relate, available, pressure, distribution, ogive, forebody, at, zero, angle, attack, to, lower, surface, pressure, equivalent, ogive, forebody, at, angle, attack]
+Term             Weight
+angle            0.9004262602878819
+at            0.9004262602878819
+attack            0.9004262602878819
+available            0.6214421478571255
+distribution            0.6214421478571255
+equivalent            0.6214421478571255
+forebody            0.9004262602878819
+lower            0.6214421478571255
+ogive            0.9004262602878819
+possible            0.6214421478571255
+pressure            0.9004262602878819
+relate            0.6214421478571255
+surface            0.6214421478571255
+to            0.7281158456090577
+zero            0.6214421478571255
+For Query 8 [method, dash, exact, approximate, dash, presently, available, predict, body, pressure, at, angle, attack]
+Term             Weight
+angle            0.561980891050863
+approximate            0.6214421478571255
+at            0.561980891050863
+attack            0.561980891050863
+available            0.561980891050863
+body            0.6214421478571255
+dash            0.9004262602878819
+exact            0.6214421478571255
+method            0.6214421478571255
+predict            0.6214421478571255
+presently            0.6214421478571255
+pressure            0.561980891050863
+For Query 9 [papers, on, internal, slip, flow, heat, transfer, study]
+Term             Weight
+flow            0.6370891515767836
+heat            0.6791219525543741
+internal            0.7509775004326937
+on            0.6791219525543741
+papers            0.7509775004326937
+slip            0.7509775004326937
+study            0.7509775004326937
+transfer            0.7509775004326937
+For Query 10 [real, gas, transport, property, air, available, over, wide, range, enthalpy, density]
+Term             Weight
+air            0.7509775004326937
+available            0.6370891515767836
+density            0.7509775004326937
+enthalpy            0.7509775004326937
+gas            0.6791219525543741
+over            0.7509775004326937
+property            0.7509775004326937
+range            0.7509775004326937
+real            0.7509775004326937
+transport            0.7509775004326937
+wide            0.7509775004326937
+For Query 11 [possible, to, find, analytical, similar, solution, strong, blast, wave, problem, newtonian, approximation]
+Term             Weight
+analytical            0.7509775004326937
+approximation            0.7509775004326937
+blast            0.7509775004326937
+find            0.7509775004326937
+newtonian            0.7509775004326937
+possible            0.6791219525543741
+problem            0.6072664046760545
+similar            0.7509775004326937
+solution            0.6791219525543741
+strong            0.7509775004326937
+to            0.5841340850404995
+wave            0.7509775004326937
+For Query 12 [can, aerodynamic, performance, channel, flow, ground, effect, machine, calculate]
+Term             Weight
+aerodynamic            0.6791219525543741
+calculate            0.7509775004326937
+can            0.6791219525543741
+channel            0.7509775004326937
+effect            0.7509775004326937
+flow            0.6072664046760545
+ground            0.7509775004326937
+machine            0.7509775004326937
+performance            0.7509775004326937
+For Query 13 [basic, mechanism, transonic, aileron, buzz]
+Term             Weight
+aileron            0.7509775004326937
+basic            0.7509775004326937
+buzz            0.7509775004326937
+mechanism            0.7509775004326937
+transonic            0.7509775004326937
+For Query 14 [papers, on, shock, sound, wave, interaction]
+Term             Weight
+interaction            0.7509775004326937
+on            0.6370891515767836
+papers            0.6791219525543741
+shock            0.7509775004326937
+sound            0.7509775004326937
+wave            0.6791219525543741
+For Query 15 [material, property, photoelastic, material]
+Term             Weight
+material            0.9004262602878819
+photoelastic            0.6214421478571255
+property            0.561980891050863
+For Query 16 [can, transverse, potential, flow, about, body, revolution, calculate, efficiently, by, electronic, computer]
+Term             Weight
+about            0.7509775004326937
+body            0.6791219525543741
+by            0.7509775004326937
+calculate            0.6791219525543741
+can            0.6370891515767836
+computer            0.7509775004326937
+efficiently            0.7509775004326937
+electronic            0.7509775004326937
+flow            0.5841340850404995
+potential            0.7509775004326937
+revolution            0.7509775004326937
+transverse            0.7509775004326937
+For Query 17 [can, three, dimensional, problem, transverse, potential, flow, about, body, revolution, reduce, to, two, dimensional, problem]
+Term             Weight
+about            0.561980891050863
+body            0.527198285573449
+can            0.5025196342446007
+dimensional            0.9004262602878819
+flow            0.46773702876718654
+potential            0.561980891050863
+problem            0.7003800638456551
+reduce            0.6214421478571255
+revolution            0.561980891050863
+three            0.6214421478571255
+to            0.46773702876718654
+transverse            0.561980891050863
+two            0.6214421478571255
+For Query 18 [experimental, pressure, distribution, on, body, revolution, at, angle, attack, available]
+Term             Weight
+angle            0.6370891515767836
+at            0.6370891515767836
+attack            0.6370891515767836
+available            0.6072664046760545
+body            0.6072664046760545
+distribution            0.6791219525543741
+experimental            0.6791219525543741
+on            0.6072664046760545
+pressure            0.6370891515767836
+revolution            0.6370891515767836
+For Query 19 [do, exist, good, basic, treatment, dynamics, re, entry, combine, consideration, realistic, effect, relative, simplicity, result]
+Term             Weight
+basic            0.6791219525543741
+combine            0.7509775004326937
+consideration            0.7509775004326937
+do            0.6791219525543741
+dynamics            0.7509775004326937
+effect            0.6791219525543741
+entry            0.7509775004326937
+exist            0.7509775004326937
+good            0.7509775004326937
+re            0.7509775004326937
+realistic            0.7509775004326937
+relative            0.7509775004326937
+result            0.7509775004326937
+simplicity            0.7509775004326937
+treatment            0.7509775004326937
+For Query 20 [anyone, formally, determine, influence, joule, heating, produce, by, induce, current, magnetohydrodynamic, free, convection, flow, under, general, condition]
+Term             Weight
+anyone            0.7509775004326937
+by            0.6791219525543741
+condition            0.7509775004326937
+convection            0.7509775004326937
+current            0.7509775004326937
+determine            0.7509775004326937
+flow            0.5492534744193474
+formally            0.7509775004326937
+free            0.7509775004326937
+general            0.7509775004326937
+heating            0.7509775004326937
+induce            0.7509775004326937
+influence            0.7509775004326937
+joule            0.7509775004326937
+magnetohydrodynamic            0.7509775004326937
+produce            0.7509775004326937
+under            0.7509775004326937
+
+vector representation for queries by weight scheme w2
+
+-----------------------------------------------------------------
+-----------------Vector representation of queries By Weighing scheme W2---------------------------
+-----------------------------------------------------------------
+For Query 1 [similarity, law, must, obey, construct, aeroelastic, model, heated, high, speed, aircraft]
+Term             Weight      aeroelastic            0.4
+aircraft            0.4
+construct            0.4
+heated            0.4
+high            0.4
+law            0.4
+model            0.4
+must            0.4
+obey            0.4
+similarity            0.4
+speed            0.4
+For Query 2 [structural, aeroelastic, problem, associate, flight, high, speed, aircraft]
+Term             Weight      aeroelastic            0.4
+aircraft            0.4
+associate            0.4
+flight            0.4
+high            0.4
+problem            0.4
+speed            0.4
+structural            0.4
+For Query 3 [problem, heat, conduction, composite, slab, solve, so, far]
+Term             Weight      composite            0.4
+conduction            0.4
+far            0.4
+heat            0.4
+problem            0.4
+slab            0.4
+so            0.4
+solve            0.4
+For Query 4 [can, criterion, develop, to, show, empirically, validity, flow, solution, chemically, react, gas, mixture, base, on, simplify, assumption, instantaneous, local, chemical, equilibrium]
+Term             Weight      assumption            0.4
+base            0.4
+can            0.4
+chemical            0.4
+chemically            0.4
+criterion            0.4
+develop            0.4
+empirically            0.4
+equilibrium            0.4
+flow            0.4
+gas            0.4
+instantaneous            0.4
+local            0.4
+mixture            0.4
+on            0.4
+react            0.4
+show            0.4
+simplify            0.4
+solution            0.4
+to            0.4
+validity            0.4
+For Query 5 [chemical, kinetic, system, applicable, to, hypersonic, aerodynamic, problem]
+Term             Weight      aerodynamic            0.4
+applicable            0.4
+chemical            0.4
+hypersonic            0.4
+kinetic            0.4
+problem            0.4
+system            0.4
+to            0.4
+For Query 6 [theoretical, experimental, guide, do, we, to, turbulent, couette, flow, behaviour]
+Term             Weight      behaviour            0.4
+couette            0.4
+do            0.4
+experimental            0.4
+flow            0.4
+guide            0.4
+theoretical            0.4
+to            0.4
+turbulent            0.4
+we            0.4
+For Query 7 [possible, to, relate, available, pressure, distribution, ogive, forebody, at, zero, angle, attack, to, lower, surface, pressure, equivalent, ogive, forebody, at, angle, attack]
+Term             Weight      angle            0.4
+at            0.4
+attack            0.4
+available            0.4
+distribution            0.4
+equivalent            0.4
+forebody            0.4
+lower            0.4
+ogive            0.4
+possible            0.4
+pressure            0.4
+relate            0.4
+surface            0.4
+to            0.4
+zero            0.4
+For Query 8 [method, dash, exact, approximate, dash, presently, available, predict, body, pressure, at, angle, attack]
+Term             Weight      angle            0.4
+approximate            0.4
+at            0.4
+attack            0.4
+available            0.4
+body            0.4
+dash            0.4
+exact            0.4
+method            0.4
+predict            0.4
+presently            0.4
+pressure            0.4
+For Query 9 [papers, on, internal, slip, flow, heat, transfer, study]
+Term             Weight      flow            0.4
+heat            0.4
+internal            0.4
+on            0.4
+papers            0.4
+slip            0.4
+study            0.4
+transfer            0.4
+For Query 10 [real, gas, transport, property, air, available, over, wide, range, enthalpy, density]
+Term             Weight      air            0.4
+available            0.4
+density            0.4
+enthalpy            0.4
+gas            0.4
+over            0.4
+property            0.4
+range            0.4
+real            0.4
+transport            0.4
+wide            0.4
+For Query 11 [possible, to, find, analytical, similar, solution, strong, blast, wave, problem, newtonian, approximation]
+Term             Weight      analytical            0.4
+approximation            0.4
+blast            0.4
+find            0.4
+newtonian            0.4
+possible            0.4
+problem            0.4
+similar            0.4
+solution            0.4
+strong            0.4
+to            0.4
+wave            0.4
+For Query 12 [can, aerodynamic, performance, channel, flow, ground, effect, machine, calculate]
+Term             Weight      aerodynamic            0.4
+calculate            0.4
+can            0.4
+channel            0.4
+effect            0.4
+flow            0.4
+ground            0.4
+machine            0.4
+performance            0.4
+For Query 13 [basic, mechanism, transonic, aileron, buzz]
+Term             Weight      aileron            0.4
+basic            0.4
+buzz            0.4
+mechanism            0.4
+transonic            0.4
+For Query 14 [papers, on, shock, sound, wave, interaction]
+Term             Weight      interaction            0.4
+on            0.4
+papers            0.4
+shock            0.4
+sound            0.4
+wave            0.4
+For Query 15 [material, property, photoelastic, material]
+Term             Weight      material            0.4
+photoelastic            0.4
+property            0.4
+For Query 16 [can, transverse, potential, flow, about, body, revolution, calculate, efficiently, by, electronic, computer]
+Term             Weight      about            0.4
+body            0.4
+by            0.4
+calculate            0.4
+can            0.4
+computer            0.4
+efficiently            0.4
+electronic            0.4
+flow            0.4
+potential            0.4
+revolution            0.4
+transverse            0.4
+For Query 17 [can, three, dimensional, problem, transverse, potential, flow, about, body, revolution, reduce, to, two, dimensional, problem]
+Term             Weight      about            0.4
+body            0.4
+can            0.4
+dimensional            0.4
+flow            0.4
+potential            0.4
+problem            0.4
+reduce            0.4
+revolution            0.4
+three            0.4
+to            0.4
+transverse            0.4
+two            0.4
+For Query 18 [experimental, pressure, distribution, on, body, revolution, at, angle, attack, available]
+Term             Weight      angle            0.4
+at            0.4
+attack            0.4
+available            0.4
+body            0.4
+distribution            0.4
+experimental            0.4
+on            0.4
+pressure            0.4
+revolution            0.4
+For Query 19 [do, exist, good, basic, treatment, dynamics, re, entry, combine, consideration, realistic, effect, relative, simplicity, result]
+Term             Weight      basic            0.4
+combine            0.4
+consideration            0.4
+do            0.4
+dynamics            0.4
+effect            0.4
+entry            0.4
+exist            0.4
+good            0.4
+re            0.4
+realistic            0.4
+relative            0.4
+result            0.4
+simplicity            0.4
+treatment            0.4
+For Query 20 [anyone, formally, determine, influence, joule, heating, produce, by, induce, current, magnetohydrodynamic, free, convection, flow, under, general, condition]
+Term             Weight      anyone            0.4
+by            0.4
+condition            0.4
+convection            0.4
+current            0.4
+determine            0.4
+flow            0.4
+formally            0.4
+free            0.4
+general            0.4
+heating            0.4
+induce            0.4
+influence            0.4
+joule            0.4
+magnetohydrodynamic            0.4
+produce            0.4
+under            0.4
+
+top 5 documents vector representation 
+advantage            0.2726539360407137
+advantageous            0.4675727880261196
+advent            0.5357766313185501
+adverse            0.3768218641170109
+advisory            0.44568526273949477
+advocate            0.561980891050863
+ae            0.11544580362209769
+aec            0.49842152229352504
+aeolotropic            0.501455250204063
+aerelastic            0.5511577818475554
+aerfoil            0.4877443751081735
+aerial            0.5511577818475554
+aero            0.20463677816336268
+aeroballistic            0.5511577818475554
+aerocosmonautic            0.5250207081673345
+aerodynamic            0.15204340147165413
+aerodynamically            0.4083777354393953
+aerodynamicheating            0.5107210739285628
+aerodynamicist            0.49842152229352504
+aerodynamics            0.26838099142694766
+aerodynamieist            0.5250207081673345
+aeroelastic            0.3307184325756424
+aeroelastician            0.5107210739285628
+aeroelasticity            0.4545242424503164
+aeroengrev            0.5754887502163468
+aerofoil            0.2785211256941268
+aeronautical            0.32713797393188787
+aeronautics            0.35601043240762403
+aeronautique            0.5250207081673345
+aeroplane            0.4332475319470962
+aeroquart            0.43858879007516716
+aerore            0.5250207081673345
+aerospace            0.43314956837626933
+aerothermal            0.5511577818475554
+aerothermochemical            0.4979026978279663
+aerothermodynamic            0.501455250204063
+aerothermoelastic            0.9866341631733087
+aesc            0.4653601260677431
+af            0.5250207081673345
+affect            0.23481737653582183
+affinely            0.5169925001442313
+affinity            0.5169925001442313
+affirmative            0.4979026978279663
+afford            0.4245499201314995
+afftc            0.5250207081673345
+aforementioned            0.44568526273949477
+afrae            0.5357766313185501
+afresh            0.501455250204063
+aft            0.39185884543125793
+after            0.2649968753346989
+afterbody            0.347978011627817
+afterburn            0.615465858947206
+afterburner            0.5754887502163468
+afterflow            0.6387640052032226
+ag            0.4675252666712686
+again            0.360185080006103
+against            0.3147970214640415
+agard            0.4675252666712686
+age            0.5511577818475554
+agency            0.5754887502163468
+ago            0.561980891050863
+agrawal            0.6214421478571255
+agree            0.2515650575245636
+agreement            0.16251489578082784
+ah            0.49842152229352504
+ahead            0.2960809669406738
+aiaa            0.3164485331545604
+aid            0.3071658775348166
+ailcron            0.48586683575215844
+aileron            0.3732718535820826
+aim            0.37431452611358207
+air            0.20499461834890687
+airborne            0.5754887502163468
+aircraft            0.23954124186135478
+aircrafttype            0.5754887502163468
+airflow            0.4102958139934412
+airfoil            0.23239904472221354
+airforce            0.8670312382292648
+airframe            0.48451208163282317
+airit            0.5107210739285628
+airliner            0.5754887502163468
+airload            0.6083222796848613
+airplane            0.31738973881721366
+airscrew            0.4921840772971634
+airspeed            0.4502620280050913
+airstream            0.360185080006103
+aj            0.4223940226494715
+akin            0.5250207081673345
+al            0.3483878604875331
+alan            0.5511577818475554
+alfven            0.48451208163282317
+algebraic            0.3512347977270478
+algrantij            0.5169925001442313
+align            0.5169925001442313
+alksne            0.5357766313185501
+allcock            0.5357766313185501
+allen            0.48821388045057124
+allenhj            0.49842152229352504
+alleviate            0.44568526273949477
+alleviation            0.41555025000534107
+allmovable            0.5169925001442313
+allow            0.2761447044729368
+allowable            0.44568526273949477
+allowance            0.36992032405002034
+alloy            0.3402127436314342
+allround            0.5250207081673345
+allude            0.48586683575215844
+alman            0.5511577818475554
+almenjo            0.5169925001442313
+almost            0.3009994037091303
+almroth            0.5357766313185501
+almrothbo            0.5169925001442313
+alone            0.30734001853646636
+along            0.17189921293073618
+already            0.37742723051362664
+also            0.10406744974653351
+alter            0.3095328998321178
+alteration            0.41483652847208924
+altered            0.501455250204063
+alternate            0.44568526273949477
+alternately            0.501455250204063
+alternative            0.3354696884040897
+alternatively            0.5511577818475554
+although            0.23715573978734356
+altitude            0.3085422028374923
+altogether            0.5357766313185501
+aluminium            0.44568526273949477
+aluminum            0.3950520390840711
+aluminumalloy            0.48451208163282317
+always            0.2995206939492599
+ambient            0.3658393706105377
+ambiguity            0.4618539073902895
+ambrit            0.5357766313185501
+ambritire            0.5357766313185501
+ambrosioa            0.6791219525543741
+ame            0.43858879007516716
+amenable            0.4083777354393953
+amer            0.5511577818475554
+america            0.5204244381420449
+american            0.43858879007516716
+amick            0.5357766313185501
+amickjl            0.5250207081673345
+amiee            0.5357766313185501
+ammonium            0.4675252666712686
+amo            0.4826232319929993
+among            0.3839921275096307
+amongst            0.5357766313185501
+amount            0.23939181027769985
+ample            0.501455250204063
+amplification            0.4083777354393953
+amplifier            0.4898355077634384
+amplify            0.4289704537675544
+amplitude            0.3912999427922536
+amply            0.5357766313185501
+amr            0.4287079791697803
+analog            0.40213314096700675
+analogous            0.32323546006171977
+analogously            0.5357766313185501
+analogue            0.48946905260687107
+analoguous            0.5250207081673345
+analogy            0.2683664675422817
+analyse            0.3460752555288687
+analyser            0.5357766313185501
+analysis            0.12506768334434581
+analytic            0.3032741728535937
+analytical            0.21144166871365336
+analytically            0.3147970214640415
+analyticially            0.4877443751081735
+analyzable            0.5754887502163468
+analyze            0.22361533160019115
+analyzer            0.501455250204063
+anastasiorf            0.4979026978279663
+andabrespectively            0.5754887502163468
+anderson            0.48821388045057124
+andersonge            0.474785314149417
+andersonk            0.5107210739285628
+andersonm            0.48451208163282317
+andersonrg            0.501455250204063
+andhow            0.5511577818475554
+andlanding            0.4979026978279663
+andor            0.527198285573449
+andrew            0.5511577818475554
+andrewsdr            0.5511577818475554
+anemometer            0.3929490031854645
+angele            0.7068349566816314
+angle            0.1292662714475227
+angleof            0.48451208163282317
+angular            0.4245499201314995
+angularly            0.6706363496127035
+anh            0.5107210739285628
+anhedral            0.5169925001442313
+anideal            0.5357766313185501
+anisotropic            0.49842152229352504
+anisotropy            0.5357766313185501
+ann            0.5511577818475554
+annex            0.4979026978279663
+anniv            0.5169925001442313
+announce            0.5357766313185501
+annual            0.5357766313185501
+annul            0.5357766313185501
+annular            0.4156084467944981
+annulus            0.41555025000534107
+anomalous            0.5204244381420449
+anomaly            0.49842152229352504
+another            0.281466055327654
+anove            0.5056547554334088
+answer            0.418058033198306
+anthony            0.5511577818475554
+anti            0.7068349566816314
+antielastic            0.5250207081673345
+antisymmetric            0.5357766313185501
+antisymmetrical            0.5511577818475554
+antonio            0.561980891050863
+anyway            0.5357766313185501
+aob            0.6643856189774726
+apart            0.48821388045057124
+apelt            0.49842152229352504
+apex            0.5061062726814909
+apogee            0.5511577818475554
+app            0.21535839852293612
+apparatus            0.31244636285092475
+apparent            0.2907092793642268
+apparently            0.3354916442632778
+apparentmass            0.494847511962445
+appear            0.1983466338641272
+appearance            0.3246664268820594
+append            0.48451208163282317
+appendix            0.40027976607149657
+appl            0.4287079791697803
+applicability            0.30533638131637436
+applicable            0.21507209465887983
+application            0.1643351460176069
+applied            0.44568526273949477
+apply            0.14691663735004695
+appmech            0.5754887502163468
+appraisal            0.5169925001442313
+appraise            0.5250207081673345
+appraisement            0.5056547554334088
+appraoch            0.494847511962445
+appreciable            0.29639675510838837
+appreciably            0.30734001853646636
+appreciate            0.45347466261107666
+approach            0.203891490255968
+appropriate            0.24151430985365535
+approx            0.44107568093588045
+approximate            0.14436558534823196
+approximately            0.20549328289553
+approximation            0.1719933277625173
+appscre            0.6214421478571255
+april            0.3605075327748983
+apropriate            0.6214421478571255
+aquart            0.5250207081673345
+ar            0.3166622706901822
+ara            0.6502131301439409
+arbitrarily            0.3526659074940441
+arbitrary            0.24497994049831934
+arbor            0.5511577818475554
+arc            0.19820149402168158
+arch            0.5250207081673345
+ardc            0.5250207081673345
+area            0.21920258009588503
+aren            0.5169925001442313
+argon            0.46287284101712206
+argue            0.43858879007516716
+argument            0.4675252666712686
+arise            0.25934190687729725
+arithmetic            0.5511577818475554
+arithmetical            0.5754887502163468
+arm            0.4474991705436974
+armenaka            0.48451208163282317
+armenakasa            0.5754887502163468
+armstrong            0.501455250204063
+arnoldrn            0.4572723478805719
+around            0.24627049541990462
+arrange            0.4572723478805719
+arrangement            0.3420671882697177
+arrest            0.5357766313185501
+arrhenius            0.425407818106613
+arrival            0.7013694158089073
+arrive            0.3735335934203326
+arrow            0.5107210739285628
+ars            0.5107210739285628
+arsj            0.5754887502163468
+arsjnl            0.5107210739285628
+art            0.527198285573449
+article            0.39185884543125793
+artifice            0.474785314149417
+artificial            0.3526659074940441
+artificially            0.418058033198306
+ary            0.5250207081673345
+asce            0.5357766313185501
+ascend            0.40213314096700675
+ascertain            0.40549407501809037
+ascribe            0.5754887502163468
+ashleyh            0.5107210739285628
+ashwelldg            0.5250207081673345
+aside            0.6214421478571255
+asimplified            0.5511577818475554
+ask            0.5107210739285628
+asme            0.3078934623909584
+asmetran            0.5204244381420449
+aspect            0.2325031339886373
+aspectratio            0.5056547554334088
+assemble            0.49842152229352504
+assembly            0.501455250204063
+assert            0.5107210739285628
+assess            0.38499752796799536
+assessment            0.48821388045057124
+assign            0.49842152229352504
+assist            0.4245499201314995
+assistance            0.5511577818475554
+assistant            0.4287079791697803
+assoc            0.5204244381420449
+associate            0.21324401346963215
+associated            0.561980891050863
+association            0.4979026978279663
+assortment            0.5169925001442313
+assume            0.15811240446217759
+assumption            0.1788370353301718
+assure            0.5357766313185501
+astro            0.5511577818475554
+astronautical            0.49842152229352504
+astronautics            0.5357766313185501
+astrophy            0.5511577818475554
+astrophysics            0.5357766313185501
+asymmetric            0.571571215643736
+asymmetrical            0.433268447448904
+asymmetry            0.474785314149417
+asymptote            0.45347466261107666
+asymptotic            0.2785152750966231
+asymptotically            0.5165266877539471
+at            0.0441195049828913
+atabeckbh            0.5357766313185501
+atlarge            0.5357766313185501
+atm            0.49842152229352504
+atmosphere            0.22708778119808803
+atmospheric            0.3062581764920053
+atom            0.4643772370175753
+atomic            0.43314956837626933
+atosphere            0.5107210739285628
+attach            0.2713766722924817
+attachment            0.3605075327748983
+attack            0.17132150269502222
+attain            0.35672878681758563
+attainable            0.49842152229352504
+attaindd            0.4979026978279663
+attainment            0.5250207081673345
+attempt            0.3023320917848611
+atten            0.5250207081673345
+attendant            0.37938302295782017
+attention            0.2785152750966231
+attenuating            0.474785314149417
+attenuation            0.44763337698537986
+attitude            0.3933142840381864
+attract            0.5107210739285628
+attractive            0.49842152229352504
+attributable            0.4289704537675544
+attribute            0.31554288269471475
+audio            0.5357766313185501
+augment            0.4898355077634384
+augmentation            0.4545242424503164
+augmented            0.494847511962445
+august            0.3420671882697177
+aural            0.5250207081673345
+auspices            0.5357766313185501
+author            0.2382612151651794
+authority            0.5250207081673345
+autocorrelation            0.48451208163282317
+automatic            0.5058776363437807
+automatically            0.4572723478805719
+auxiliary            0.6706363496127035
+availability            0.5754887502163468
+available            0.19812542549075882
+avaluated            0.5357766313185501
+avco            0.48451208163282317
+avenue            0.49842152229352504
+average            0.26482286666063487
+averaging            0.49842152229352504
+aviation            0.4675252666712686
+avoid            0.42089610507563424
+avoidance            0.4675252666712686
+avove            0.5056547554334088
+avro            0.5169925001442313
+away            0.3357428671125756
+ax            0.5357766313185501
+axi            0.5056547554334088
+axial            0.18218914596244504
+axially            0.26324777898961904
+axiallysymmetric            0.5204244381420449
+axialthrust            0.5357766313185501
+axis            0.22533236631872647
+axisymmetric            0.3321629472129156
+axisymmetrical            0.4545242424503164
+axus            0.5879989883390927
+axx            0.7068349566816314
+ayrer            0.6214421478571255
+azimuthal            0.474785314149417
+b            0.2594222563066396
+back            0.3942893703046714
+background            0.40325969276458945
+backing            0.5250207081673345
+backup            0.5250207081673345
+backward            0.5250207081673345
+bagley            0.474785314149417
+bagleyja            0.44568526273949477
+bakanov            0.5754887502163468
+bakereg            0.5357766313185501
+bakerje            0.4877443751081735
+balance            0.3405942957455311
+balanced            0.5056547554334088
+balancing            0.4618539073902895
+ballistic            0.3336288129190639
+ballistics            0.4675727880261196
+balsa            0.5250207081673345
+ban            0.5056547554334088
+band            0.36872029809767964
+bandwidth            0.4675252666712686
+bang            0.5754887502163468
+bank            0.4082315977580743
+bar            0.43314956837626933
+barber            0.4979026978279663
+bare            0.5357766313185501
+barmbyjg            0.5250207081673345
+baronjr            0.5511577818475554
+barrel            0.5056547554334088
+barrier            0.49842152229352504
+barryfw            0.5357766313185501
+bartleer            0.6214421478571255
+base            0.1273342050346978
+basetype            0.5250207081673345
+basic            0.26871635042078734
+basically            0.4332475319470962
+basin            0.44568526273949477
+basis            0.23912705321480837
+batchelor            0.48451208163282317
+batdorf            0.5511577818475554
+batdorfsb            0.418058033198306
+baughmanle            0.501455250204063
+baume            0.5250207081673345
+baumgm            0.5511577818475554
+bay            0.4137762448874651
+bc            0.5357766313185501
+beam            0.5360329168868847
+beane            0.425407818106613
+beanebj            0.5169925001442313
+bear            0.3294466429206403
+bearing            0.4545242424503164
+beasleyja            0.5511577818475554
+beat            0.5107210739285628
+because            0.23965046624028385
+becausewith            0.5107210739285628
+beckerh            0.4675727880261196
+beckett            0.6214421478571255
+beckwithie            0.4545242424503164
+become            0.24627049541990462
+bed            0.5511577818475554
+bedford            0.4545242424503164
+before            0.32713797393188787
+beg            0.5056547554334088
+begin            0.3266185728656018
+beginning            0.3844012809106307
+behave            0.3483878604875331
+behavior            0.2209027447591217
+behaviorccontrol            0.5357766313185501
+behaviour            0.2783631944895863
+behind            0.2849795207880738
+being            0.49842152229352504
+belief            0.501455250204063
+believe            0.3031986740210815
+bell            0.474785314149417
+belleville            0.5754887502163468
+bellmanr            0.6214421478571255
+belltype            0.5107210739285628
+belong            0.4545242424503164
+belotserkovskius            0.6757745403337665
+below            0.21183322138914587
+belt            0.5511577818475554
+bend            0.2237055900332555
+bendict            0.6214421478571255
+bendingtorsion            0.5107210739285628
+beneath            0.3891218898205158
+beneficial            0.4332475319470962
+benefit            0.44539949243998345
+benjamin            0.4618539073902895
+benjaminrj            0.5169925001442313
+bennettfd            0.5357766313185501
+bennettfv            0.5357766313185501
+benser            0.4898355077634384
+bent            0.5250207081673345
+bentoner            0.5107210739285628
+beograd            0.5056547554334088
+ber            0.5754887502163468
+bergdolt            0.7068349566816314
+bergdoltve            0.5250207081673345
+berger            0.4979026978279663
+bergle            0.5357766313185501
+bergmannhw            0.5357766313185501
+berlotrr            0.6214421478571255
+bernard            0.5250207081673345
+berndt            0.501455250204063
+bernerf            0.5357766313185501
+bernoullus            0.5250207081673345
+bernsteinl            0.474785314149417
+berry            0.5056547554334088
+berrycj            0.4898355077634384
+berryjg            0.5511577818475554
+berthelot            0.5357766313185501
+bertram            0.44763337698537986
+bertrammh            0.4245499201314995
+beskin            0.6214421478571255
+bessel            0.43858879007516716
+best            0.30106959841900144
+bestd            0.5357766313185501
+beta            0.6643856189774726
+bethpage            0.5107210739285628
+better            0.28679393728495056
+between            0.11956277330042654
+beveled            0.5169925001442313
+beyond            0.3032741728535937
+beyween            0.5169925001442313
+bh            0.5107210739285628
+bibliography            0.6291287468830573
+biconvex            0.43858879007516716
+bifurcated            0.5357766313185501
+bifurcation            0.5754887502163468
+biharmonic            0.43858879007516716
+bijlaardpp            0.5056547554334088
+billow            0.9036649469778252
+bimetallic            0.5250207081673345
+bimolecular            0.6387640052032226
+binary            0.403108384017641
+bind            0.574411332535315
+biot            0.44305837743833826
+biotma            0.3839921275096307
+birchallpc            0.5754887502163468
+birdga            0.5357766313185501
+birdjd            0.5357766313185501
+birnbaum            0.5511577818475554
+bisector            0.5357766313185501
+bisplinghoffrl            0.5511577818475554
+bj            0.48451208163282317
+blackiej            0.6214421478571255
+blackstockta            0.5754887502163468
+blade            0.3530983044763304
+bladed            0.741957875616643
+blading            0.5160680910232114
+blandsr            0.5250207081673345
+blasius            0.3942893703046714
+blast            0.4643700336141345
+bleed            0.3810095721681197
+bleich            0.5511577818475554
+blended            0.5107210739285628
+blessing            0.5169925001442313
+block            0.4545242424503164
+blockage            0.4866097767957514
+blocking            0.5511577818475554
+bloom            0.5169925001442313
+bloommh            0.40549407501809037
+blow            0.3844012809106307
+blowdown            0.39004777586270406
+blowing            0.4675727880261196
+blowout            0.5754887502163468
+bloxsonde            0.5250207081673345
+blue            0.5169925001442313
+bluff            0.37597171961575
+bluish            0.4812085469093953
+blumercb            0.49842152229352504
+blunt            0.24173995105990834
+blunter            0.49842152229352504
+blunting            0.5776453464785848
+bluntness            0.326401922980584
+bluntnosed            0.425407818106613
+blunttrail            0.494847511962445
+bo            0.5357766313185501
+board            0.5902089022363897
+boat            0.5511577818475554
+boattail            0.3599759171927099
+bobbittpj            0.5357766313185501
+bodner            0.5511577818475554
+bodnersr            0.5250207081673345
+bodt            0.5357766313185501
+body            0.1608140088168295
+bogdonoff            0.4545242424503164
+bogdonoffsm            0.5056547554334088
+bohonhk            0.501455250204063
+bohonhl            0.45347466261107666
+boiloff            0.5357766313185501
+boisonjc            0.5357766313185501
+bolshakov            0.5357766313185501
+boltzmann            0.49842152229352504
+bolzre            0.5250207081673345
+bomb            0.7763493961988588
+bomber            0.4175426508040305
+bond            0.37475335282659644
+bondac            0.5169925001442313
+bondr            0.45347466261107666
+bonus            0.5511577818475554
+book            0.49842152229352504
+boom            0.5985993864133238
+booming            0.5250207081673345
+boost            0.5754887502163468
+booster            0.48451208163282317
+borcheref            0.5754887502163468
+bornel            0.5511577818475554
+both            0.1561899910047284
+bottom            0.4618539073902895
+bounary            0.5107210739285628
+bound            0.35814234142147783
+boundary            0.08721814644315179
+boundarylayer            0.2920194647138489
+boundwell            0.5250207081673345
+bourne            0.5204244381420449
+bournede            0.48821388045057124
+bow            0.3831020064306332
+box            0.4653601260677431
+boxallg            0.5511577818475554
+boydja            0.5250207081673345
+boyerd            0.5357766313185501
+bracalente            0.5754887502163468
+bracket            0.5511577818475554
+brake            0.4675727880261196
+branch            0.532009107536523
+branchline            0.5511577818475554
+brandmaierhe            0.5511577818475554
+braslowal            0.4675252666712686
+brass            0.433268447448904
+bratt            0.5754887502163468
+braunschweig            0.5169925001442313
+bray            0.48451208163282317
+breadth            0.4572723478805719
+break            0.3449287044041484
+breakdown            0.4083777354393953
+breathe            0.5107210739285628
+breathing            0.44539949243998345
+brebner            0.5250207081673345
+brebnergg            0.48451208163282317
+breguet            0.5754887502163468
+brenckmanm            0.5357766313185501
+bressette            0.3872844881069803
+brevoortm            0.5357766313185501
+bridge            0.48451208163282317
+brief            0.2923867257943142
+briefly            0.2844517129987084
+brightness            0.5169925001442313
+bring            0.34512298534834446
+bristol            0.5511577818475554
+british            0.44539949243998345
+britjappphy            0.5511577818475554
+brittonjw            0.5754887502163468
+broad            0.3844012809106307
+broadbenteg            0.5511577818475554
+broaden            0.5204244381420449
+broadwellje            0.6214421478571255
+brommaf            0.4921840772971634
+brooklyn            0.3522861521016999
+brother            0.5250207081673345
+browerwb            0.5357766313185501
+brown            0.4137762448874651
+brownc            0.5511577818475554
+brownce            0.5754887502163468
+browneka            0.5169925001442313
+brownga            0.5107210739285628
+brownwd            0.5107210739285628
+bruchdo            0.5169925001442313
+brush            0.5357766313185501
+bryceww            0.501455250204063
+bryerdw            0.5511577818475554
+brysonae            0.5250207081673345
+bsc            0.5357766313185501
+btu            0.4167440331315116
+btulb            0.5511577818475554
+bubble            0.44539949243998345
+buckle            0.25847916812847854
+buckled            0.4213036447465564
+buckling            0.21547944087280096
+budiansky            0.5511577818475554
+budianskyb            0.561980891050863
+buffalo            0.4675727880261196
+buffet            0.4129867408520162
+buffeting            0.5057563663879577
+build            0.4653601260677431
+builtup            0.5107210739285628
+bulent            0.5357766313185501
+bulge            0.5250207081673345
+bulk            0.3844012809106307
+bulkhead            0.5169925001442313
+bullennus            0.5511577818475554
+bullet            0.5107210739285628
+bump            0.7068349566816314
+buoyancy            0.5357766313185501
+buoyant            0.48451208163282317
+bureau            0.44568526273949477
+burger            0.720359661096333
+burgrafor            0.5169925001442313
+burke            0.5511577818475554
+burn            0.4042792805306321
+burning            0.425407818106613
+burst            0.6172220408941413
+burtonra            0.5357766313185501
+bury            0.9036649469778252
+busemann            0.41483652847208924
+bushwb            0.48451208163282317
+butler            0.7965784284662087
+buzz            0.7965784284662087
+by            0.03629836257950998
+bypass            0.5357766313185501
+bystep            0.48451208163282317
+c            0.32036920280743103
+cabin            0.7965784284662087
+cal            0.44568526273949477
+calcualted            0.5511577818475554
+calcualtion            0.5357766313185501
+calculate            0.1469369443359546
+calculated            0.2976371920566265
+calculation            0.13238321537044345
+calculus            0.36982816544895525
+caliber            0.5357766313185501
+calibrate            0.4675727880261196
+calibration            0.4349875608578648
+calif            0.532009107536523
+california            0.5056547554334088
+californium            0.3929490031854645
+call            0.33560028053392327
+callaghanee            0.4877443751081735
+callahancj            0.5107210739285628
+caloric            0.43858879007516716
+calorically            0.474785314149417
+cam            0.41483652847208924
+camacm            0.5357766313185501
+camb            0.6214421478571255
+camber            0.3402127436314342
+cambered            0.3929490031854645
+cambridge            0.5204244381420449
+
+
+2.  the rank, score, external document identifier, and headline, for each of
+the top 5 documents for each query
+
+-----------------------------------------------------------------
+-----------------By Weighing schema W1---------------------------
+-----------------------------------------------------------------
+For Query 1 [similarity, law, must, obey, construct, aeroelastic, model, heated, high, speed, aircraft]
+Rank	Doc id    Score    		Doc title
+1	486    0.4414856936084794	similarity laws for aerothermoelastic testing .
+2	573    0.4017721954267901	viscous hypersonic similitude .
+3	51    0.3946141970263355	theory of aircraft structural models subjected to aerodynamicheating and external loads .
+4	184    0.3798528651317175	scale models for thermo-aeroelastic research .
+5	12    0.36233745599328127	some structural and aerelastic considerations of highspeed flight .
+For Query 2 [structural, aeroelastic, problem, associate, flight, high, speed, aircraft]
+Rank	Doc id    Score    		Doc title
+1	12    0.7090850573545789	some structural and aerelastic considerations of highspeed flight .
+2	14    0.4293952652557009	piston theory - a new aerodynamic tool for the aeroelastician.
+3	51    0.3969432944867356	theory of aircraft structural models subjected to aerodynamicheating and external loads .
+4	746    0.3766268704064679	aeroelastic problems in connection with high speedflight .
+5	172    0.3590271325866056	some aerodynamic considerations of nozzle afterbodycombination .
+For Query 3 [problem, heat, conduction, composite, slab, solve, so, far]
+Rank	Doc id    Score    		Doc title
+1	485    0.6089417941090106	linear heat flow in a composite slab .
+2	144    0.5188303619469044	heat flow in composite slabs .
+3	5    0.5113512609535278	one-dimensional transient heat conduction into a double-layerslab subjected to a linear heat input for a small timeinternal .
+4	399    0.4495841639639334	conduction of heat in composite slabs .
+5	181    0.4416380911987694	some problems on heat conduction in stratiform bodies .
+For Query 4 [can, criterion, develop, to, show, empirically, validity, flow, solution, chemically, react, gas, mixture, base, on, simplify, assumption, instantaneous, local, chemical, equilibrium]
+Rank	Doc id    Score    		Doc title
+1	1061    0.5313221988677742	turbulent mixing of a rocket exhaust jet with a supersonic stream includingchemical reactions .
+2	166    0.5148277577212055	flow of chemically reacting gas mixtures .
+3	488    0.4523503819127309	a reaction-rate parameter for gasdynamics of a chemicallyreacting gas mixture .
+4	1189    0.36044086244657036	nonequilibrium flow past a wedge .
+5	1255    0.35692318164761666	the flow about a charged body moving in the lower atmosphere .
+For Query 5 [chemical, kinetic, system, applicable, to, hypersonic, aerodynamic, problem]
+Rank	Doc id    Score    		Doc title
+1	103    0.4154645317095875	theory of mixing and chemical reaction in the opposedjet diffusion flame .
+2	625    0.3729996296211165	viscous and inviscid nonequilibrium gas flows .
+3	1032    0.37239295134090966	on the conservativeness of various distributed force systems .
+4	1296    0.3264254505904701	non-equilibrium expansions of air with coupled chemicalreactions .
+5	943    0.30519707153796233	compressible free shear layer with finite initial thickness .
+For Query 6 [theoretical, experimental, guide, do, we, to, turbulent, couette, flow, behaviour]
+Rank	Doc id    Score    		Doc title
+1	798    0.4333237831890445	interaction between shock waves and boundary layers, with a note on theeffects of the interaction of the performance of supersonic intakes .
+2	491    0.34285213297252004	on the close relationship between turbulent plane-couetteand pressure flows .
+3	386    0.2845818880978257	a generalised porous-wall ?couette type? flow .
+4	257    0.2785606554325665	on turbulen flow between parallel plates .
+5	315    0.27761911226480684	scale effects at high subsonic and transonic speedsand methods for fixing transition in model experiments .
+For Query 7 [possible, to, relate, available, pressure, distribution, ogive, forebody, at, zero, angle, attack, to, lower, surface, pressure, equivalent, ogive, forebody, at, angle, attack]
+Rank	Doc id    Score    		Doc title
+1	492    1.2510222972297504	prediction of ogive-forebody pressures at angles of attack .
+2	434    0.9304923808288841	contributions of the wing panels to the forces andmoments of supersonic wing-body combinations at combinedangles .
+3	57    0.7914484899083243	applicability of the hypersonic similarity rule topressure distributions which include the effects ofrotation for bodies of revolution at zero angle ofattack .
+4	973    0.7752312726599464	interaction effects produced by jet exhausting laterally near base ofogive-cylinder model in supersonic main stream .
+5	56    0.7400204100136274	an analysis of the applicability of the hypersonicsimilarity law to the study of the flow about bodiesof revolution at zero angle of attack .
+For Query 8 [method, dash, exact, approximate, dash, presently, available, predict, body, pressure, at, angle, attack]
+Rank	Doc id    Score    		Doc title
+1	569    0.5064282448029217	an experimental investigation of leading edge shock wave boundary layerinteraction at mach 5.8 .
+2	688    0.48617851712739923	tables of aerodynamic coefficients obtained from developed newtonianexpressions for complete and partial conic and spheric bodies at combinedangles of attack and sideslip with some comparisons with hypersonicexperimental data .
+3	443    0.4628415257597607	calculated and measured pressure distributions over the midspan sectionof the naca 4412 airfoil .
+4	711    0.4460880548745115	an investigation at subsonic speeds of aerodynamic characteristics atangles of attack from -dash 4degrees to 100degrees of a delta-wingreentry configuration having folding wingtip panels .
+5	122    0.43838808890257097	a simplified approximate method for the calculation of the pressurearound conical bodies of arbitrary shape in supersonic and hypersonicflow .
+For Query 9 [papers, on, internal, slip, flow, heat, transfer, study]
+Rank	Doc id    Score    		Doc title
+1	550    0.40092823427922497	laminar heat transfer in tubes under slip-flow conditions .
+2	270    0.3761538697273763	on combined free and forced convection laminar magnetohydrodynamicflow and heat transfer in channels with transversemagnetic field .
+3	45    0.3655910629277144	an investigation of separated flows, part ii: flowin the cavity and heat transfer .
+4	21    0.3514730301794885	on heat transfer in slip flow .
+5	571    0.34478648300312115	heat transfer to flat plate in high temperature rarefiedultra-high mach number flow .
+For Query 10 [real, gas, transport, property, air, available, over, wide, range, enthalpy, density]
+Rank	Doc id    Score    		Doc title
+1	493    0.5179839184761381	real-gas laminar boundary layer skin friction and heattransfer .
+2	302    0.4481066384714932	approximations for the thermodynamic and transport properties of hightemperature air .
+3	1199    0.40208949778020786	theoretical investigations of a supersonic laminarboundary layer with foreign-gas injection .
+4	949    0.39106374952665235	charts for equilibrium flow properties of air in hypervelocitynozzles .
+5	1143    0.38167956015369203	a one-foot hypervelocity shock tunnel in which high-enthalpyreal gas flows can be generated with flow times ofabout 180 milliseconds .
+For Query 11 [possible, to, find, analytical, similar, solution, strong, blast, wave, problem, newtonian, approximation]
+Rank	Doc id    Score    		Doc title
+1	495    0.7024274165450559	on similar solutions for strong blast waves and theirapplication to steady hypersonic flow .
+2	72    0.36084204093670563	boundary layer behind shock or thin expansion wavemoving into stationary fluid .
+3	572    0.35144537653282354	boundary layer displacement and leading edge bluntness effects in hightemperature hypersonic flow .
+4	1327    0.3508176406484639	on the propagation and structure of the blast wave .
+5	110    0.3458035613753351	dynamics of a dissociating gas .
+For Query 12 [can, aerodynamic, performance, channel, flow, ground, effect, machine, calculate]
+Rank	Doc id    Score    		Doc title
+1	624    0.6383523785203843	cruise performance of channel-flow ground effect machines .
+2	650    0.44724785297849823	some design problems of hovercraft .
+3	506    0.36986110597746186	a note on havelock's shallow-water wave-resistancecurves .
+4	649    0.3618488969822072	the hovercraft - a new concept in maritime transport .
+5	966    0.35947395644586866	on fully developed channel flows,. some solutions and limitations, andeffects of compressibility, variable properties, and body forces .
+For Query 13 [basic, mechanism, transonic, aileron, buzz]
+Rank	Doc id    Score    		Doc title
+1	496    0.8301826237141456	a theory of transonic aileron buzz, neglecting viscouseffects .
+2	903    0.4696462253156176	two dimensional transonic unsteady flow with shockwaves .
+3	520    0.43937578500136165	wing-tail interference as a cause of 'magnus' effectson a finned missile .
+4	643    0.3024923122214935	an investigation of wing-aileron flutter using groundlaunched rocket models .
+5	38    0.29023486568937085	on the prediction of mixed subsonic/supersonic pressuredistributions .
+For Query 14 [papers, on, shock, sound, wave, interaction]
+Rank	Doc id    Score    		Doc title
+1	64    0.4561436840881789	unsteady oblique interaction of a shock wave with planedisturbances .
+2	132    0.390499731578431	viscosity effects in sound waves of finite amplitude:in survey in mechanics .
+3	291    0.3512408684977143	sweepback effects in the turbulent boundary-layer shock-waveinteraction .
+4	402    0.34921934371494706	magnetohydrodynamics shocks .
+5	170    0.3452932549594915	the interaction of a reflected shock wave with theboundary layer in a shock tube .
+For Query 15 [material, property, photoelastic, material]
+Rank	Doc id    Score    		Doc title
+1	462    0.8900538735267036	photo-thermoelasticity .
+2	463    0.6429557111584633	physical properties of plastics for photo-thermoelasticinvestigation .
+3	1025    0.6427723719471354	note on creep buckling of columns .
+4	1097    0.6058777184393541	experimental ablation cooling .
+5	553    0.593124849891166	ablation of glassy materials around blunt bodies ofrevolution .
+For Query 16 [can, transverse, potential, flow, about, body, revolution, calculate, efficiently, by, electronic, computer]
+Rank	Doc id    Score    		Doc title
+1	498    0.5915640976157249	calculation of potential flow about bodies of revolutionhaving axes perpendicular to the free-stream direction .
+2	869    0.3796004117904714	the calculation of transient temperature in turbineblades and tapered discs using biot's variational method .
+3	106    0.36346806334995624	the transverse potential flow past a body of revolution .
+4	927    0.3411340206234786	investigation of normal force distributions and wakevortex characteristics of bodies of revolution at supersonicspeeds .
+5	1255    0.31005321238754396	the flow about a charged body moving in the lower atmosphere .
+For Query 17 [can, three, dimensional, problem, transverse, potential, flow, about, body, revolution, reduce, to, two, dimensional, problem]
+Rank	Doc id    Score    		Doc title
+1	1108    0.5590705408636616	a study of second-order supersonic flow theory .
+2	1281    0.5107788783589431	turbulent heat transfer on blunt-nosed bodies in two-dimensionaland general three-dimensional hypersonic flow .
+3	700    0.4950299461247402	two and three-dimensional unsteady lift problems in high speed flight .
+4	1301    0.4625611088599219	compressible boundary layers on bodies of revolution .
+5	445    0.4576384233691223	on the application of mathieu functions in the theoryof subsonic compressible flow past oscillating airfoils .
+For Query 18 [experimental, pressure, distribution, on, body, revolution, at, angle, attack, available]
+Rank	Doc id    Score    		Doc title
+1	248    0.45783781543601143	the application of lighthill formula for numericalcalculation of pressure distributions on bodies ofrevolution at supersonic speed and zero angle of attack .
+2	197    0.4441797809588859	pressure distributions on three bodies of revolutionto determine the effect of reynolds number up to andincluding the transonic speed range .
+3	234    0.4218729944854353	a second order shock-expansion method applicable tobodies of revolution near zero lift .
+4	498    0.40329846385028034	calculation of potential flow about bodies of revolutionhaving axes perpendicular to the free-stream direction .
+5	56    0.40140347273746724	an analysis of the applicability of the hypersonicsimilarity law to the study of the flow about bodiesof revolution at zero angle of attack .
+For Query 19 [do, exist, good, basic, treatment, dynamics, re, entry, combine, consideration, realistic, effect, relative, simplicity, result]
+Rank	Doc id    Score    		Doc title
+1	82    0.39994808858433245	theoretical investigation of the ablation of a glass-typeheat protection shield of varied material propertiesat the stagnation point of a re-entering irbm .
+2	274    0.26471256013333416	analysis of quartz and teflon shields for a particularre-entry mission .
+3	1279    0.2641130916622584	sublimation in a hypersonic environment .
+4	1119    0.26278136500564747	plastic stability theory of thin shells .
+5	1296    0.26061326252689715	non-equilibrium expansions of air with coupled chemicalreactions .
+For Query 20 [anyone, formally, determine, influence, joule, heating, produce, by, induce, current, magnetohydrodynamic, free, convection, flow, under, general, condition]
+Rank	Doc id    Score    		Doc title
+1	500    0.6395528242520757	joule heating in magnetohydrodynamic free-convectionflows .
+2	268    0.4046886673760096	several magnetohydrodynamic free-convection solutions .
+3	88    0.3391422172542855	magnetohydrodynamic free-convection pipe flow .
+4	270    0.3022855820152446	on combined free and forced convection laminar magnetohydrodynamicflow and heat transfer in channels with transversemagnetic field .
+5	87    0.2711197672356816	free-convection magnetohydrodynamic flow past a porous flat plate .
+
+-----------------------------------------------------------------
+-----------------By Weighing schema W2---------------------------
+-----------------------------------------------------------------
+For Query 1 [similarity, law, must, obey, construct, aeroelastic, model, heated, high, speed, aircraft]
+Rank	Doc id    Score    		Doc title
+1	486    0.9037900121975797	similarity laws for aerothermoelastic testing .
+2	51    0.7798368077729719	theory of aircraft structural models subjected to aerodynamicheating and external loads .
+3	573    0.7609495066003855	viscous hypersonic similitude .
+4	1268    0.7183371571571799	stable combustion of a high-velocity gas in a heatedboundary layer .
+5	14    0.6968607412037318	piston theory - a new aerodynamic tool for the aeroelastician.
+For Query 2 [structural, aeroelastic, problem, associate, flight, high, speed, aircraft]
+Rank	Doc id    Score    		Doc title
+1	12    1.30732967842306	some structural and aerelastic considerations of highspeed flight .
+2	14    0.9781520119429725	piston theory - a new aerodynamic tool for the aeroelastician.
+3	172    0.9727114736056777	some aerodynamic considerations of nozzle afterbodycombination .
+4	51    0.8877535158921129	theory of aircraft structural models subjected to aerodynamicheating and external loads .
+5	746    0.8676495055233702	aeroelastic problems in connection with high speedflight .
+For Query 3 [problem, heat, conduction, composite, slab, solve, so, far]
+Rank	Doc id    Score    		Doc title
+1	485    0.8494129773710167	linear heat flow in a composite slab .
+2	5    0.824144698845419	one-dimensional transient heat conduction into a double-layerslab subjected to a linear heat input for a small timeinternal .
+3	144    0.8101398899963186	heat flow in composite slabs .
+4	399    0.7801830176395996	conduction of heat in composite slabs .
+5	181    0.7647010941747022	some problems on heat conduction in stratiform bodies .
+For Query 4 [can, criterion, develop, to, show, empirically, validity, flow, solution, chemically, react, gas, mixture, base, on, simplify, assumption, instantaneous, local, chemical, equilibrium]
+Rank	Doc id    Score    		Doc title
+1	166    1.1652518472838247	flow of chemically reacting gas mixtures .
+2	1061    1.1126378125662284	turbulent mixing of a rocket exhaust jet with a supersonic stream includingchemical reactions .
+3	1255    1.0952701206352826	the flow about a charged body moving in the lower atmosphere .
+4	435    0.9823574330647773	application of similar solutions to calculations oflaminar heat transfer on bodies with yaw and largepressure gradients in high speed flow .
+5	24    0.9803987422197895	theory of stagnation point heat transfer in dissociatedair .
+For Query 5 [chemical, kinetic, system, applicable, to, hypersonic, aerodynamic, problem]
+Rank	Doc id    Score    		Doc title
+1	625    0.9561183376440152	viscous and inviscid nonequilibrium gas flows .
+2	401    0.8049042796087245	inviscid hypersonic airflows with coupled non-equilibriumprocesses .
+3	342    0.7871480586927239	effect of diffusion fields on the laminar boundarylayer .
+4	163    0.7847209021699414	an analysis of the corridor and guidance requirementsfor supercircular entry planetary atmospheres .
+5	1147    0.7655960844891679	heat transfer to bodies traveling at high speed in the upperatmosphere .
+For Query 6 [theoretical, experimental, guide, do, we, to, turbulent, couette, flow, behaviour]
+Rank	Doc id    Score    		Doc title
+1	798    0.9818381630767619	interaction between shock waves and boundary layers, with a note on theeffects of the interaction of the performance of supersonic intakes .
+2	121    0.8533906880939323	a theory for base pressures in transonic and supersonicflow .
+3	491    0.7889636817499753	on the close relationship between turbulent plane-couetteand pressure flows .
+4	257    0.7388433234416834	on turbulen flow between parallel plates .
+5	1122    0.7231475125953643	on the role of initial imperfections in plastic bucklingof cylinders under axial compression
+For Query 7 [possible, to, relate, available, pressure, distribution, ogive, forebody, at, zero, angle, attack, to, lower, surface, pressure, equivalent, ogive, forebody, at, angle, attack]
+Rank	Doc id    Score    		Doc title
+1	492    2.197011605377332	prediction of ogive-forebody pressures at angles of attack .
+2	57    1.8362547377989136	applicability of the hypersonic similarity rule topressure distributions which include the effects ofrotation for bodies of revolution at zero angle ofattack .
+3	122    1.802135498957355	a simplified approximate method for the calculation of the pressurearound conical bodies of arbitrary shape in supersonic and hypersonicflow .
+4	232    1.7778821049478577	accuracy of approximate methods for predicting pressureon pointed non-lifting bodies of revolution in supersonicflow .
+5	373    1.7618546292849595	the generalized expansion method and its applicationto bodies travelling at high supersonic airspeeds .
+For Query 8 [method, dash, exact, approximate, dash, presently, available, predict, body, pressure, at, angle, attack]
+Rank	Doc id    Score    		Doc title
+1	122    1.2280358853087288	a simplified approximate method for the calculation of the pressurearound conical bodies of arbitrary shape in supersonic and hypersonicflow .
+2	433    1.1584993802884322	application of two dimensional vortex theory to theprediction of flow fields behind wings of wing-bodycombinations at subsonic and supersonic speeds .
+3	232    1.0645201012567593	accuracy of approximate methods for predicting pressureon pointed non-lifting bodies of revolution in supersonicflow .
+4	124    1.053129124090207	a summary of the supersonic pressure drag of bodiesof revolution .
+5	292    1.0465016813339605	rapid laminar boundary layer calculations by piece-wiseapplication of similar solutions .
+For Query 9 [papers, on, internal, slip, flow, heat, transfer, study]
+Rank	Doc id    Score    		Doc title
+1	550    1.0294532220263481	laminar heat transfer in tubes under slip-flow conditions .
+2	45    1.0149333972913108	an investigation of separated flows, part ii: flowin the cavity and heat transfer .
+3	270    1.003325635691359	on combined free and forced convection laminar magnetohydrodynamicflow and heat transfer in channels with transversemagnetic field .
+4	21    0.8715162854810778	on heat transfer in slip flow .
+5	22    0.8609686554836413	on slip-flow heat transfer to a flat plate .
+For Query 10 [real, gas, transport, property, air, available, over, wide, range, enthalpy, density]
+Rank	Doc id    Score    		Doc title
+1	302    0.9310941302207021	approximations for the thermodynamic and transport properties of hightemperature air .
+2	493    0.9300848181961865	real-gas laminar boundary layer skin friction and heattransfer .
+3	1264    0.8299656839504262	boundary layer transition and heat transfer in shocktubes .
+4	583    0.7442755911745742	influence coefficients for real gases .
+5	1010    0.7380819977363899	free-flight measurements of the static and dynamic
+For Query 11 [possible, to, find, analytical, similar, solution, strong, blast, wave, problem, newtonian, approximation]
+Rank	Doc id    Score    		Doc title
+1	495    1.3298875058991895	on similar solutions for strong blast waves and theirapplication to steady hypersonic flow .
+2	72    1.0486887969101641	boundary layer behind shock or thin expansion wavemoving into stationary fluid .
+3	110    0.9183001620106415	dynamics of a dissociating gas .
+4	160    0.9094438413445749	approximate analytical solutions for hypersonic flowpast slender power-law bodies .
+5	572    0.8999782308053303	boundary layer displacement and leading edge bluntness effects in hightemperature hypersonic flow .
+For Query 12 [can, aerodynamic, performance, channel, flow, ground, effect, machine, calculate]
+Rank	Doc id    Score    		Doc title
+1	624    1.2833287381610037	cruise performance of channel-flow ground effect machines .
+2	650    0.8582415502677944	some design problems of hovercraft .
+3	506    0.8127570946116376	a note on havelock's shallow-water wave-resistancecurves .
+4	966    0.8083242045106598	on fully developed channel flows,. some solutions and limitations, andeffects of compressibility, variable properties, and body forces .
+5	1339    0.7493918750136861	calculation of flutter characteristics for finite-span swept or unsweptwings at subsonic and supersonic speeds by a modified strip analysis .
+For Query 13 [basic, mechanism, transonic, aileron, buzz]
+Rank	Doc id    Score    		Doc title
+1	496    0.8880022826587242	a theory of transonic aileron buzz, neglecting viscouseffects .
+2	903    0.7316558591899902	two dimensional transonic unsteady flow with shockwaves .
+3	520    0.694676378580271	wing-tail interference as a cause of 'magnus' effectson a finned missile .
+4	313    0.4930588744489589	on alternative forms for the basic equations of transonicflow theory .
+5	440    0.48941853584732964	compilation of information on the transonic attachmentof flows at the leading edge of airfoils .
+For Query 14 [papers, on, shock, sound, wave, interaction]
+Rank	Doc id    Score    		Doc title
+1	64    1.0510474837433004	unsteady oblique interaction of a shock wave with planedisturbances .
+2	132    0.8269642475320129	viscosity effects in sound waves of finite amplitude:in survey in mechanics .
+3	256    0.8103623934736072	an experimental study of the glancing interaction betweena shock wave and a turbulent boundary layer .
+4	1364    0.8059094715944595	an experimental investigation of the interaction between shock waves and boundary layers .
+5	345    0.8058995122196815	the interaction of shock waves with boundary layeron a flat surface .
+For Query 15 [material, property, photoelastic, material]
+Rank	Doc id    Score    		Doc title
+1	462    1.2905155124337053	photo-thermoelasticity .
+2	463    0.9447912106113181	physical properties of plastics for photo-thermoelasticinvestigation .
+3	1025    0.9414459803503683	note on creep buckling of columns .
+4	1099    0.9310673738989632	a theoretical study of stagnation point ablation .
+5	1340    0.905994308078524	method of controlling stiffness properties of a solid-constructionmodel wing .
+For Query 16 [can, transverse, potential, flow, about, body, revolution, calculate, efficiently, by, electronic, computer]
+Rank	Doc id    Score    		Doc title
+1	498    1.2996263356256679	calculation of potential flow about bodies of revolutionhaving axes perpendicular to the free-stream direction .
+2	1255    0.9393281909332305	the flow about a charged body moving in the lower atmosphere .
+3	927    0.9315069850564865	investigation of normal force distributions and wakevortex characteristics of bodies of revolution at supersonicspeeds .
+4	869    0.9195824478182937	the calculation of transient temperature in turbineblades and tapered discs using biot's variational method .
+5	106    0.8654866165190721	the transverse potential flow past a body of revolution .
+For Query 17 [can, three, dimensional, problem, transverse, potential, flow, about, body, revolution, reduce, to, two, dimensional, problem]
+Rank	Doc id    Score    		Doc title
+1	1108    1.4309753252375563	a study of second-order supersonic flow theory .
+2	1248    1.310640700441057	an analytic extension of the shock-expansion method .
+3	1301    1.2968891188782463	compressible boundary layers on bodies of revolution .
+4	1281    1.2895958324399575	turbulent heat transfer on blunt-nosed bodies in two-dimensionaland general three-dimensional hypersonic flow .
+5	801    1.2494229694842647	experimental study of the equivalence of transonicflow about slender cone-cylinders of circular and ellipticcross section .
+For Query 18 [experimental, pressure, distribution, on, body, revolution, at, angle, attack, available]
+Rank	Doc id    Score    		Doc title
+1	197    1.336322499696733	pressure distributions on three bodies of revolutionto determine the effect of reynolds number up to andincluding the transonic speed range .
+2	498    1.3169241175772115	calculation of potential flow about bodies of revolutionhaving axes perpendicular to the free-stream direction .
+3	234    1.301914967588325	a second order shock-expansion method applicable tobodies of revolution near zero lift .
+4	927    1.2782144524391141	investigation of normal force distributions and wakevortex characteristics of bodies of revolution at supersonicspeeds .
+5	225    1.2736125940454217	elliptic cones alone and with wings at supersonic speeds .
+For Query 19 [do, exist, good, basic, treatment, dynamics, re, entry, combine, consideration, realistic, effect, relative, simplicity, result]
+Rank	Doc id    Score    		Doc title
+1	82    0.7625556851946425	theoretical investigation of the ablation of a glass-typeheat protection shield of varied material propertiesat the stagnation point of a re-entering irbm .
+2	274    0.7022954434182913	analysis of quartz and teflon shields for a particularre-entry mission .
+3	927    0.6734977609845264	investigation of normal force distributions and wakevortex characteristics of bodies of revolution at supersonicspeeds .
+4	1346    0.6289578296214154	modulated entry .
+5	1296    0.6010326678866502	non-equilibrium expansions of air with coupled chemicalreactions .
+For Query 20 [anyone, formally, determine, influence, joule, heating, produce, by, induce, current, magnetohydrodynamic, free, convection, flow, under, general, condition]
+Rank	Doc id    Score    		Doc title
+1	500    0.9670389723956412	joule heating in magnetohydrodynamic free-convectionflows .
+2	268    0.9551856821058635	several magnetohydrodynamic free-convection solutions .
+3	88    0.8181741965543241	magnetohydrodynamic free-convection pipe flow .
+4	123    0.7665070254073978	the downstream influence of mass transfer at the noseof a slender cone .
+5	439    0.7544893324118274	a factor affecting transonic leading edge flow separation .

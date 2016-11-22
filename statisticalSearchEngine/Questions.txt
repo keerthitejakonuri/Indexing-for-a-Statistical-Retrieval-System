@@ -1,0 +1,18 @@
+3.  
+4. The non-relevant documents have higher scores because the weighing factor is focusing on that terms frequency than its semantic context in that documents. Also the length of the documents affect the weight. This is observed throughout the document
+5. Comparison of the weighting schemes :
+Scheme Weight1:
+Since this scheme uses max_tf the term with the maximum frequency, even if the term may not be of relevance with the subject of the document it creates higher value and hence results higher weight for non relevant documents.
+This scheme doesnt consider the semantic of the maximum frequency term.
+
+Scheme Weight2:
+This weighing scheme doesnt produces irrelevant results if a particular term occurs in more than half the collection.Hence any term present in more than half the documents will affect the weighing score resulting in non relevant documents.
+The weighting scheme also considers the doc length of the collection making the value higher for non relevance documents too.
+
+
+6. The design decisions made while ranking are:
+
+The weights are calculated for both documents and queries using the same weighting formula w1 and w2 separately.
+
+The documents and queries are preprocessed to remove stop words and other extra symbols.
+

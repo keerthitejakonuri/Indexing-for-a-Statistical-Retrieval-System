@@ -1,0 +1,129 @@
+Problem 1:
+
+Description:
+
+Total Time Taken To Fetch Results: 3518 ms
+
+>This programs converts every word to lowercase.
+
+>It removes –‘s from all the documents.
+
+>It removes all the possessives from all the collection.
+
+>It removes all the .’s in acronyms.
+
+> I have used Hashmaps datastructure to store the words and their frequency. 
+
+1. No of Tokens: 233331
+
+2. No of Words Unique are:10690
+
+3. No of Words occured only once: 4980 
+
+4. Top 30 frequent words: 
+the: 19445
+of: 12714
+and: 6669
+a: 6185
+in: 4624
+to: 4560
+is: 4113
+for: 3490
+are: 2428
+with: 2262
+on: 1944
+flow: 1844
+at: 1835
+by: 1754
+that: 1569
+an: 1388
+be: 1271
+pressure: 1205
+boundary: 1155
+from: 1116
+as: 1113
+this: 1080
+layer: 999
+which: 975
+number: 972
+results: 885
+it: 854
+mach: 819
+theory: 787
+shock: 710
+
+
+5. The average number of word tokens per document: 166
+
+
+Problem 2:
+
+1. The number of distinct stems in the Cranfield text collection : 5963
+
+2.  The number of stems that occurred only once in the Cranfield text 
+
+collection : 4482
+
+3. The 30 most frequent stems in the Cranfield text collection are:
+
+gener 15
+
+observ 11
+
+oper 10
+
+comput 9
+
+deriv 9 
+
+determin 9
+
+integr 9
+
+continu 8
+
+predict 8
+
+simul 8
+
+separ 8
+
+indic 8
+
+investig 8
+
+express 7
+
+diffus 7
+
+compar 7
+
+differ 7
+
+illustr 7
+
+conduct 7
+
+design 7
+
+correct 7
+
+us      7
+
+correl 7
+
+origin 7
+
+approxim 7
+
+depend 7
+
+develop 7
+
+acceler 7
+
+stabil 7
+
+adjust 6
+
+4. The average number of word stems per document : 4.259285714285714
